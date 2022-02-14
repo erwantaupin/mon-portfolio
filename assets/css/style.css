@@ -1,4 +1,12 @@
-/* font-face: url(../font/)  */
+@font-face {
+  font-family: "titre";
+  src: url("../font/robosapienhalf.ttf");
+}
+@font-face {
+  font-family: "texte";
+  src: url("../font/morgenlicht.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -88,9 +96,13 @@ li {
     background-position: 0 0;
   }
 }
-
+.texteform {
+  font-family: "texte";
+  text-align: center;
+}
 h3 {
   color: aliceblue;
+  font-family: "texte";
 }
 a {
   text-decoration: none;
@@ -105,13 +117,13 @@ a {
   height: 500px;
   width: 200px;
   position: absolute;
-  /* background-color: #444343;
-  border: 1px solid #fbff00; */
 }
 .menu h2 {
   display: block;
-  padding-top: 30px;
+  margin-top: 5px;
+  padding: 10px;
   text-align: center;
+  font-family: "titre";
 }
 .Projet {
   display: block;
@@ -119,6 +131,7 @@ a {
 }
 .Projet h2 {
   font-size: 24px;
+  font-family: "titre";
 }
 .blur {
   position: absolute;
@@ -137,12 +150,7 @@ a {
   margin-top: 250px;
   transition-duration: 0.5s;
   width: 300px;
-  /* box-shadow: 7px 13px 15px 0px rgba(44, 44, 84, 1); */
-  /* background-color: #444343;
-  border: 1px solid #2c2c54; */
   z-index: 1;
-  border-radius: 20px;
-  filter: blur(0px);
 }
 .dropdown-content {
   margin-top: 20px;
@@ -193,7 +201,7 @@ a {
 }
 
 h2 {
-  font-family: "";
+  font-family: "titre";
   color: aliceblue;
   /* font-size: 16px; */
   /* font-weight: 100; */
@@ -218,6 +226,7 @@ h2 {
 }
 .histoire h2 {
   text-decoration: underline;
+  font-family: "titre";
 }
 .vecu {
   border-bottom: 1px solid #fbff00;
