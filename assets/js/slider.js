@@ -2,8 +2,8 @@
 (function(){
     //If you want to include more images, add the link name and URL of the image in the array list below.
         let images_list = [
-            {"url":"https://html-generator.com/uploads/images/2022/02/13/82740QHJ91DKG_6.png","name":"SpawnArena","link":"http://127.0.0.1/SpawnArena/index.php"},
-            {"url":"https://html-generator.com/uploads/images/2022/02/14/8168938YM7L4895.png","name":"Simplon-Drive","link":"http://127.0.0.1/neo-drive/index.php"}
+            {"url":"https://html-generator.com/uploads/images/2022/02/14/681099MHLT2I4ET.png","name":"SpawnArena","link":"http://127.0.0.1/SpawnArena/index.php"},
+            {"url":"https://html-generator.com/uploads/images/2022/02/14/68695Q9XSFPWHOW.png","name":"Simplon-Drive","link":"http://127.0.0.1/neo-drive/index.php"}
             // {"url":"","name":"image 3","link":""},
             // {"url":"","name":"image 4","link":""},
             // {"url":"","name":"image 5","link":""}
