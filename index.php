@@ -20,7 +20,7 @@
   <body>
     <div class="burger"></div>
     <header>
-      <div class="box-profil">
+      <div class="box-profil" id="haut-de-page">
         <video autoplay muted loop id="galaxy">
           <source src="assets/images/galaxy.mp4" type="video/mp4" />
         </video>
@@ -47,7 +47,6 @@
         <i class="fas fa-chevron-circle-right"></i>
       </button>
     </div>
-    <!-- <div class="para1"></div> -->
     <div class="histoire">
       <div class="monvecu">
         <div class="titreh">
@@ -63,7 +62,6 @@
           </ul>
         </div>
       </div>
-      <!-- <div class="fondu"></div> -->
       <div class="mescomp">
         <div class="titreh">
             <h3>Mes Competences</h3>
@@ -84,9 +82,23 @@
         </div>
       </div>
     </div>
-    <div class="formu"></div>
-    <footer></footer>
+    <div class="formu">
+      <form class="formulaire" action="assets/php/traitement.php" method="post">
+        <p>Votre nom :<br><input type="text" name="name" placeholder="Votre nom" required id="name"/></p>
+        <p>votre entreprise :<br><input type="text" name="entreprise" placeholder="votre entreprise" required id="entreprise"/></p>
+        <p>Votre email :<br><input type="email" name="mail" placeholder="votre email" required id="mail"/></p>
+        <p>Votre message :<br><textarea id="message" name="message" rows="5" cols="33" placeholder="veuillez écrire votre message ici, merci" id="textearea"></textarea></p>
+        <p><input type="submit" value="envoyez" id="subuton"/></p>
+      </form>
+    </div>
+    <footer>
+      <div class="btn">
+      <img src="assets/images/svg/top.svg" class="icone">
+      </div>
+      <p>&copy; Copyright 2022 par Apprenant Mr Taupin Erwan</p>
+    </footer>
     <script src="assets/js/glider.min.js"></script>
     <script src="assets/js/glider.js"></script>
-  </body>
+    <script src="assets/js/btn.js"></script>
+ </body>
 </html>
