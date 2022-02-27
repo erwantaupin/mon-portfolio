@@ -47,7 +47,7 @@
         <i class="fas fa-chevron-circle-right"></i>
       </button>
     </div>
-    <div class="para1"></div>
+    <!-- <div class="para1"></div> -->
     <div class="histoire">
       <div class="monvecu">
         <div class="titreh">
@@ -55,31 +55,36 @@
         </div>
         <div class="liste">
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li>Apprenti Telecom</li>
+            <li>Monteur Cableur F.O</li>
+            <li>Apprenant Dev.Web</li>
+            <!-- <li>4</li>
+            <li>5</li> -->
           </ul>
         </div>
       </div>
-      <div class="fondu"></div>
+      <!-- <div class="fondu"></div> -->
       <div class="mescomp">
         <div class="titreh">
             <h3>Mes Competences</h3>
         </div>
         <div class="liste">
           <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>PHP</li>
-            <li>JS</li>
-            <li>Python</li>
+            <li>HTML5<br>
+            <progress id="1" value="45" max="100"></progress></li>
+            <li>CSS<br>
+            <progress id="2" value="40" max="100"></progress></li>
+            <li>PHP<br>
+            <progress id="3" value="30" max="100"></progress></li>
+            <li>JS<br>
+            <progress id="4" value="30" max="100"></progress></li>
+            <li>Python<br>
+            <progress id="5" value="30" max="100"></progress></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="para1"></div>
+    <div class="formu"></div>
     <footer></footer>
     <script src="assets/js/glider.min.js"></script>
     <script src="assets/js/glider.js"></script>
