@@ -100,5 +100,6 @@
     <script src="assets/js/glider.min.js"></script>
     <script src="assets/js/glider.js"></script>
     <script src="assets/js/btn.js"></script>
+    <script src="assets/js/burger.js"></script>
  </body>
 </html>
